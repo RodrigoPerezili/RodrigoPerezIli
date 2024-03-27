@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+}
+.navbar {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    width: 2500px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo a {
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    padding: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    display: flex;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: blanchedalmond;
+    font-size: 25px;
+}
+
+.nav-links li a:hover {
+    color:aquamarine
+
+}
+.pbton{
+
+}
+.targeta{
+    width: 930px;
+    align-self: center;
+    border:none;
+    border-radius: 20px; 
+    position: relative;
+    top:120px;
+    left:20px;
+    background-color: white;
+}
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: -90px;
+    border: 4px white solid;
+}
+.portada{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: blue;
+    height: 15vh;
+}
+.inferior{
+    padding: 10%;
+}
+.sboton{
+    border-radius: 8px;
+}
+.container{
+   background-color: rgb(255, 255, 255);
+   width: 930px;
+   height: 240px;
+   position: relative;
+   top:120px;
+   left:20px;
+   border-radius: 10px;
+   border-color:black;
+   justify-content: center;
+}
+.soli{
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    bottom: 500px;
+    left: 1500px;
+}
+.soli img{
+    position: relative;
+    height: 80px;
+    width: 80px;  
+    left: 10%;  
+    top: 50%;
+}
